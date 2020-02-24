@@ -9,8 +9,9 @@ if [ $? -ne 0 ]; then
 	echo -e "#########################"
 	exit 1
 fi
+now=$(date +'%T')
 
-echo -e "**************************Now Executing Compiled File******************************\n\n"
+echo -e "\n\n*****************    Now Executing Compiled File : $now   *************************\n"
 ./result.out
-echo -e "\n\n**************************File Execution is Completed******************************"
+echo -e "\n\n######################    File Execution is Completed    ##########################"
 
