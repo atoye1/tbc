@@ -11,7 +11,7 @@ if [ $? -ne 0 ]; then
 fi
 now=$(date +'%T')
 
-echo -e "\n\n*****************    Now Executing Compiled File : $now   *************************\n"
+echo -e "\n\n****************** $1  is being Executed at $now   *********************\n"
 ./result.out
-echo -e "\n\n######################    File Execution is Completed    ##########################"
+echo -e "\n\n####################  File Execution is Completed  #########################"
 
