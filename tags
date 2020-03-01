@@ -4,6 +4,21 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FIRST_CHAR	/root/tbc/6.15.c	5;"	d	language:C++	file:
+FIRST_CHAR	/root/tbc/neted_loop.c	4;"	d	language:C++	file:
+LAST_CHAR	/root/tbc/6.15.c	6;"	d	language:C++	file:
+LAST_CHAR	/root/tbc/neted_loop.c	5;"	d	language:C++	file:
+NUM_DAYS	/root/tbc/6.16.c	7;"	d	language:C++	file:
+NUM_ROWS	/root/tbc/6.15.c	4;"	d	language:C++	file:
+NUM_ROWS	/root/tbc/neted_loop.c	3;"	d	language:C++	file:
+SIZE	/root/tbc/6.17.c	4;"	d	language:C++	file:
+loop_three	/root/tbc/6.15.c	/^int loop_three()$/;"	f	language:C++
+loop_two	/root/tbc/6.15.c	/^int loop_two()$/;"	f	language:C++
+main	/root/tbc/5.5.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/6.15.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/6.16.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/6.17.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/neted_loop.c	/^int main()$/;"	f	language:C++
 main	3.4.c	/^int main()$/;"	f
 main	3.6.c	/^int main()$/;"	f
 main	3.8.c	/^int main()$/;"	f
