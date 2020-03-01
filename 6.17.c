@@ -3,8 +3,30 @@
 #include <stdio.h>
 #define SIZE 5
 
+int sum_func()
+{
+	int sum_arr[SIZE];
+	int sum_result = 0;
+	int j;
+	for (int j = 0 ;j < SIZE; ++j)
+	{	printf("INPUT VALUE  %d :", j+1);
+		scanf("%d", &sum_arr[j]);
+		printf("\n");
+	}
+	
+	for (int j =0 ; j < SIZE  ;++j)
+	{
+		printf("value is = %d \n", sum_arr[j]);
+		sum_result += sum_arr[j];
+	}
+
+	printf("result = %d\n", sum_result);
+	return 0;
+}
+
 int main()
 {
+	sum_func();
 	/* Motivation */
 	//int i1 = 0;
 	//int i2 = 1;
