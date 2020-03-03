@@ -20,6 +20,8 @@ main	/root/tbc/6.15.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/6.16.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/6.17.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/6.18.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/7.1.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/7.2.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/neted_loop.c	/^int main()$/;"	f	language:C++
 main	3.4.c	/^int main()$/;"	f
 main	3.6.c	/^int main()$/;"	f
