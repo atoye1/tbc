@@ -4,6 +4,13 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BASE1	/root/tbc/7.4.c	5;"	d	language:C++	file:
+BASE2	/root/tbc/7.4.c	6;"	d	language:C++	file:
+BASE3	/root/tbc/7.4.c	7;"	d	language:C++	file:
+BASE4	/root/tbc/7.4.c	8;"	d	language:C++	file:
+BASE5	/root/tbc/7.4.c	9;"	d	language:C++	file:
+BASE6	/root/tbc/7.4.c	10;"	d	language:C++	file:
+BASIC_DEDUCTION	/root/tbc/7.4.c	20;"	d	language:C++	file:
 FIRST_CHAR	/root/tbc/6.15.c	5;"	d	language:C++	file:
 FIRST_CHAR	/root/tbc/neted_loop.c	4;"	d	language:C++	file:
 LAST_CHAR	/root/tbc/6.15.c	6;"	d	language:C++	file:
@@ -11,6 +18,13 @@ LAST_CHAR	/root/tbc/neted_loop.c	5;"	d	language:C++	file:
 NUM_DAYS	/root/tbc/6.16.c	7;"	d	language:C++	file:
 NUM_ROWS	/root/tbc/6.15.c	4;"	d	language:C++	file:
 NUM_ROWS	/root/tbc/neted_loop.c	3;"	d	language:C++	file:
+RATE1	/root/tbc/7.4.c	12;"	d	language:C++	file:
+RATE2	/root/tbc/7.4.c	13;"	d	language:C++	file:
+RATE3	/root/tbc/7.4.c	14;"	d	language:C++	file:
+RATE4	/root/tbc/7.4.c	15;"	d	language:C++	file:
+RATE5	/root/tbc/7.4.c	16;"	d	language:C++	file:
+RATE6	/root/tbc/7.4.c	17;"	d	language:C++	file:
+RATE7	/root/tbc/7.4.c	18;"	d	language:C++	file:
 SIZE	/root/tbc/6.17.c	4;"	d	language:C++	file:
 compute_pow	/root/tbc/6.18.c	/^int compute_pow(int base, int exp)$/;"	f	language:C++
 loop_three	/root/tbc/6.15.c	/^int loop_three()$/;"	f	language:C++
@@ -22,6 +36,9 @@ main	/root/tbc/6.17.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/6.18.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/7.1.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/7.2.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/7.3.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/7.4.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/7.6.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/neted_loop.c	/^int main()$/;"	f	language:C++
 main	3.4.c	/^int main()$/;"	f
 main	3.6.c	/^int main()$/;"	f

@@ -14,10 +14,10 @@ int main()
 
 	char ch;
 
-	ch = getchar(); // Get one character
+//	ch = getchar(); // Get one character
 //	putchar(ch); 
 	
-	while (ch != '\n')
+	while ((ch=getchar()) != '\n')
 	{
 		putchar(ch);
 
