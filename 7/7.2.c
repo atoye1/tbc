@@ -17,11 +17,8 @@ int main()
 //	ch = getchar(); // Get one character
 //	putchar(ch); 
 	
-	while ((ch=getchar()) != '\n')
+	while ((ch=getchar()) != 'a')
 	{
-		putchar(ch);
-
-		ch = getchar();
 	}
 
 	putchar(ch);
