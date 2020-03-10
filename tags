@@ -19,6 +19,7 @@ _CRT_SECURE_NO_WARNINGS	/root/tbc/8/8.5.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/8/8.6.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/8/8.7.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/8/8.8.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/8/8.9.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/break_in_multi_loop.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/getchar_break.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/placeholder.c	3;"	d	language:C++	file:
@@ -40,6 +41,7 @@ main	/root/tbc/8/8.5.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/8/8.6.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/8/8.7.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/8/8.8.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/8/8.9.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/break_in_multi_loop.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/getchar_break.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/neted_loop.c	/^int main()$/;"	f	language:C++

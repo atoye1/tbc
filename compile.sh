@@ -2,7 +2,10 @@
 
 #//This script is to compile c file on vim and run it from vim command mode
 
-gcc -o result.out $1
+output=$1\.out
+echo -e "\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-\n[Compiling <$1>] \n"
+
+gcc -o $output  $1
 if [ $? -ne 0 ]; then
 	echo -e "#########################\n"
 	echo -e "Error Occured During Compile\n"
@@ -11,7 +14,7 @@ if [ $? -ne 0 ]; then
 fi
 now=$(date +'%T')
 
-echo -e "\n\n****************** $1  is being Executed at $now   *********************\n"
-./result.out
-echo -e "\n\n####################  File Execution is Completed  #########################"
+echo -e "\n\n^ <$output> is Running at $now ^\n"
+./$output
+echo -e "\n$ <$output> is terminated $\n"
 
