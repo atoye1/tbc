@@ -4,9 +4,15 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDRESS	/root/tbc/9/9.1.c	10;"	d	language:C++	file:
+ADDRESS	/root/tbc/9/9.2.c	10;"	d	language:C++	file:
 FIRST_CHAR	/root/tbc/neted_loop.c	4;"	d	language:C++	file:
 LAST_CHAR	/root/tbc/neted_loop.c	5;"	d	language:C++	file:
+NAME	/root/tbc/9/9.1.c	9;"	d	language:C++	file:
+NAME	/root/tbc/9/9.2.c	9;"	d	language:C++	file:
 NUM_ROWS	/root/tbc/neted_loop.c	3;"	d	language:C++	file:
+WIDTH	/root/tbc/9/9.1.c	8;"	d	language:C++	file:
+WIDTH	/root/tbc/9/9.2.c	8;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/6/scanf_test.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/7/7.11.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/7/7.12.c	3;"	d	language:C++	file:
@@ -20,13 +26,30 @@ _CRT_SECURE_NO_WARNINGS	/root/tbc/8/8.6.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/8/8.7.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/8/8.8.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/8/8.9.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/9/9.1.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/9/9.10.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/9/9.11.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/9/9.2.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/9/9.4.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/9/9.5.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/9/9.6.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/9/9.7.c	2;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/9/9.8.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/9/9.9.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/break_in_multi_loop.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/getchar_break.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/placeholder.c	3;"	d	language:C++	file:
 display	/root/tbc/8/8.5.c	/^void display(char cr, int lines, int width)$/;"	f	language:C++
 display	/root/tbc/8/8.5.c	/^void display(char cr, int lines, int width);$/;"	p	language:C++	file:
+fibonacci	/root/tbc/9/9.10.c	/^int fibonacci(int number)$/;"	f	language:C++
+fibonacci	/root/tbc/9/9.10.c	/^int fibonacci(int number);$/;"	p	language:C++	file:
 get_long	/root/tbc/8/8.6.c	/^long get_long(void)$/;"	f	language:C++
 get_long	/root/tbc/8/8.6.c	/^long get_long(void);$/;"	p	language:C++	file:
+global_var	/root/tbc/9/9.4.c	/^int global_var = 100;$/;"	v	language:C++
+int_max	/root/tbc/9/9.4.c	/^int int_max(int i1, int i2)$/;"	f	language:C++
+int_max	/root/tbc/9/9.4.c	/^int int_max(int, int);$/;"	p	language:C++	file:
+loop_factorial	/root/tbc/9/9.8.c	/^long loop_factorial(int n)$/;"	f	language:C++
+loop_factorial	/root/tbc/9/9.8.c	/^long loop_factorial(int n);$/;"	p	language:C++	file:
 main	/root/tbc/6/6.1.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/6/scanf_test.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/7/7.11.c	/^int main()$/;"	f	language:C++
@@ -42,9 +65,38 @@ main	/root/tbc/8/8.6.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/8/8.7.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/8/8.8.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/8/8.9.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/9/9.1.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/9/9.10.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/9/9.11.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/9/9.2.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/9/9.4.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/9/9.5.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/9/9.6.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/9/9.7.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/9/9.8.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/9/9.9.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/break_in_multi_loop.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/getchar_break.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/neted_loop.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/placeholder.c	/^int main()$/;"	f	language:C++
+my_func	/root/tbc/9/9.6.c	/^void my_func(int n)$/;"	f	language:C++
+my_func	/root/tbc/9/9.6.c	/^void my_func(int);$/;"	p	language:C++	file:
+my_func	/root/tbc/9/9.7.c	/^void my_func(int n)$/;"	f	language:C++
+my_func	/root/tbc/9/9.7.c	/^void my_func(int);$/;"	p	language:C++	file:
 num	/root/tbc/6/scanf_test.c	/^int num;$/;"	v	language:C++
+print_binary	/root/tbc/9/9.9.c	/^void print_binary(unsigned long n);$/;"	p	language:C++	file:
+print_binary	/root/tbc/9/9.9.c	/^void print_binary(unsigned long num)$/;"	f	language:C++
+print_binary_loop	/root/tbc/9/9.9.c	/^void print_binary_loop(unsigned long n);$/;"	p	language:C++	file:
+print_binary_loop	/root/tbc/9/9.9.c	/^void print_binary_loop(unsigned long num)$/;"	f	language:C++
+print_centered_string	/root/tbc/9/9.1.c	/^void print_centered_string(char str[])$/;"	f	language:C++
+print_centered_string	/root/tbc/9/9.2.c	/^void print_centered_string(char str[])$/;"	f	language:C++
+print_centered_string	/root/tbc/9/9.2.c	/^void print_centered_string(char str[]);$/;"	p	language:C++	file:
+print_hello	/root/tbc/9/my_header.h	/^void print_hello()$/;"	f	language:C++
+print_hi	/root/tbc/9/my_header.h	/^void print_hi()$/;"	f	language:C++
+print_multiple_chars	/root/tbc/9/9.1.c	/^void print_multiple_chars(char c, int n_stars, bool endl)$/;"	f	language:C++
+print_multiple_chars	/root/tbc/9/9.2.c	/^void print_multiple_chars(char c, int n_stars, bool endl)$/;"	f	language:C++
+print_multiple_chars	/root/tbc/9/9.2.c	/^void print_multiple_chars(char c, int n_stars, bool endl);$/;"	p	language:C++	file:
+print_str	/root/tbc/9/my_header.h	/^void print_str(char* str)$/;"	f	language:C++
+recursive_factorial	/root/tbc/9/9.8.c	/^long recursive_factorial(int n)$/;"	f	language:C++
+recursive_factorial	/root/tbc/9/9.8.c	/^long recursive_factorial(int n);$/;"	p	language:C++	file:
 status	/root/tbc/6/scanf_test.c	/^int status;$/;"	v	language:C++
