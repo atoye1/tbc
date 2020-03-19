@@ -1,4 +1,4 @@
-#!/bin/bash
+#9999999999999999999999999999999999!/bin/bash
 
 #//This script is to compile c file on vim and run it from vim command mode
 
@@ -14,7 +14,7 @@ if [ $? -ne 0 ]; then
 fi
 now=$(date +'%T')
 
-echo -e "\n\n^ <$output> is Running at $now ^\n"
+echo -e "\n\n<$output> is Running at $now\n"
 ./$output
-echo -e "\n$ <$output> is terminated $\n"
+echo -e "\n<$output> is terminated $now\n"
 
