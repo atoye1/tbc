@@ -1,15 +1,23 @@
-#9999999999999999999999999999999999!/bin/bash
+#!/bin/bash
 
 #//This script is to compile c file on vim and run it from vim command mode
 
 output=$1\.out
-echo -e "\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-\n[Compiling <$1>] \n"
+init_comment="+ Compiling <$1> +"
+init_comment_size=${#init_comment}
+
+echo " "
+#echo "++++++++++++++++++++"
+python -c "print('+' * $init_comment_size)"
+echo "$init_comment"
+python -c "print('+' * $init_comment_size)"
+#echo "++++++++++++++++++++"
 
 gcc -o $output  $1
 if [ $? -ne 0 ]; then
-	echo -e "#########################\n"
-	echo -e "Error Occured During Compile\n"
-	echo -e "#########################"
+	echo -e "############################"
+	echo -e "Error Occured During Compile"
+	echo -e "############################"
 	exit 1
 fi
 now=$(date +'%T')

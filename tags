@@ -8,11 +8,14 @@ ADDRESS	/root/tbc/9/9.1.c	10;"	d	language:C++	file:
 ADDRESS	/root/tbc/9/9.2.c	10;"	d	language:C++	file:
 FIRST_CHAR	/root/tbc/neted_loop.c	4;"	d	language:C++	file:
 LAST_CHAR	/root/tbc/neted_loop.c	5;"	d	language:C++	file:
+MONTHS	/root/tbc/10/10.6.c	5;"	d	language:C++	file:
 NAME	/root/tbc/9/9.1.c	9;"	d	language:C++	file:
 NAME	/root/tbc/9/9.2.c	9;"	d	language:C++	file:
 NUM_ROWS	/root/tbc/neted_loop.c	3;"	d	language:C++	file:
 WIDTH	/root/tbc/9/9.1.c	8;"	d	language:C++	file:
 WIDTH	/root/tbc/9/9.2.c	8;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/10/10.5.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/10/10.6.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/6/scanf_test.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/7/7.11.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/7/7.12.c	3;"	d	language:C++	file:
@@ -55,6 +58,8 @@ int_max	/root/tbc/9/9.4.c	/^int int_max(int i1, int i2)$/;"	f	language:C++
 int_max	/root/tbc/9/9.4.c	/^int int_max(int, int);$/;"	p	language:C++	file:
 loop_factorial	/root/tbc/9/9.8.c	/^long loop_factorial(int n)$/;"	f	language:C++
 loop_factorial	/root/tbc/9/9.8.c	/^long loop_factorial(int n);$/;"	p	language:C++	file:
+main	/root/tbc/10/10.5.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/10/10.6.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/6/6.1.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/6/scanf_test.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/7/7.11.c	/^int main()$/;"	f	language:C++
