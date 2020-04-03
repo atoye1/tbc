@@ -38,6 +38,9 @@ _CRT_SECURE_NO_WARNINGS	/root/tbc/11/11.1.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/11/11.2.c	6;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/11/11.3.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/11/11.4.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/11/11.6.c	2;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/11/selection_sort.c	2;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/11/selection_sort_answer.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/6/scanf_test.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/7/7.11.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/7/7.12.c	3;"	d	language:C++	file:
@@ -79,6 +82,8 @@ display	/root/tbc/8/8.5.c	/^void display(char cr, int lines, int width)$/;"	f	la
 display	/root/tbc/8/8.5.c	/^void display(char cr, int lines, int width);$/;"	p	language:C++	file:
 fibonacci	/root/tbc/9/9.10.c	/^int fibonacci(int number)$/;"	f	language:C++
 fibonacci	/root/tbc/9/9.10.c	/^int fibonacci(int number);$/;"	p	language:C++	file:
+fit_str	/root/tbc/11/11.6.c	/^void fit_str(char* str, unsigned int size)$/;"	f	language:C++
+fit_str	/root/tbc/11/11.6.c	/^void fit_str(char*, unsigned int);$/;"	p	language:C++	file:
 get_long	/root/tbc/8/8.6.c	/^long get_long(void)$/;"	f	language:C++
 get_long	/root/tbc/8/8.6.c	/^long get_long(void);$/;"	p	language:C++	file:
 global_var	/root/tbc/9/9.4.c	/^int global_var = 100;$/;"	v	language:C++
@@ -103,6 +108,10 @@ main	/root/tbc/11/11.1.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/11/11.2.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/11/11.3.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/11/11.4.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/11/11.6.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/11/selection_sort.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/11/selection_sort_answer.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/3/3.4.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/6/6.1.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/6/scanf_test.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/7/7.11.c	/^int main()$/;"	f	language:C++
@@ -141,7 +150,12 @@ my_func	/root/tbc/9/9.6.c	/^void my_func(int n)$/;"	f	language:C++
 my_func	/root/tbc/9/9.6.c	/^void my_func(int);$/;"	p	language:C++	file:
 my_func	/root/tbc/9/9.7.c	/^void my_func(int n)$/;"	f	language:C++
 my_func	/root/tbc/9/9.7.c	/^void my_func(int);$/;"	p	language:C++	file:
+my_strcat	/root/tbc/11/11.6.c	/^char my_strcat(char* str1, char*str2)$/;"	f	language:C++
+my_strcat	/root/tbc/11/11.6.c	/^char my_strcat(char*, char*);$/;"	p	language:C++	file:
+my_strcmp	/root/tbc/11/11.6.c	/^int my_strcmp(char* str1, char*str2)$/;"	f	language:C++
+my_strcmp	/root/tbc/11/11.6.c	/^int my_strcmp(char*, char*);$/;"	p	language:C++	file:
 num	/root/tbc/6/scanf_test.c	/^int num;$/;"	v	language:C++
+printArray	/root/tbc/11/selection_sort_answer.c	/^void printArray(int arr[], int size);$/;"	p	language:C++	file:
 print_array	/root/tbc/10/10.11.c	/^void print_array(const int arr[],const int n)$/;"	f	language:C++
 print_binary	/root/tbc/9/9.9.c	/^void print_binary(unsigned long n);$/;"	p	language:C++	file:
 print_binary	/root/tbc/9/9.9.c	/^void print_binary(unsigned long num)$/;"	f	language:C++
@@ -158,6 +172,10 @@ print_multiple_chars	/root/tbc/9/9.2.c	/^void print_multiple_chars(char c, int n
 print_str	/root/tbc/9/my_header.h	/^void print_str(char* str)$/;"	f	language:C++
 recursive_factorial	/root/tbc/9/9.8.c	/^long recursive_factorial(int n)$/;"	f	language:C++
 recursive_factorial	/root/tbc/9/9.8.c	/^long recursive_factorial(int n);$/;"	p	language:C++	file:
+selectionSort	/root/tbc/11/selection_sort_answer.c	/^void selectionSort(int arr[], int size)$/;"	f	language:C++
+selectionSort	/root/tbc/11/selection_sort_answer.c	/^void selectionSort(int arr[], int size);$/;"	p	language:C++	file:
+selection_sort	/root/tbc/11/selection_sort.c	/^void selection_sort(int my_arr[])$/;"	f	language:C++
+selection_sort	/root/tbc/11/selection_sort.c	/^void selection_sort(int my_arr[]);$/;"	p	language:C++	file:
 status	/root/tbc/6/scanf_test.c	/^int status;$/;"	v	language:C++
 sum	/root/tbc/10/10.11.c	/^int sum(const int arr[], int n)$/;"	f	language:C++
 sum2d_1	/root/tbc/10/10.16.c	/^int sum2d_1(int ar[ROWS][COLS])$/;"	f	language:C++
@@ -171,6 +189,8 @@ sum_1d	/root/tbc/10/10.18.c	/^int sum_1d(int arr[], int n)$/;"	f	language:C++
 sum_1d	/root/tbc/10/10.18.c	/^int sum_1d(int arr[], int n);$/;"	p	language:C++	file:
 sum_2d	/root/tbc/10/10.18.c	/^int sum_2d(int arr[][COLS], int rows)$/;"	f	language:C++
 sum_2d	/root/tbc/10/10.18.c	/^int sum_2d(int arr[][COLS], int rows);$/;"	p	language:C++	file:
+swap	/root/tbc/11/selection_sort_answer.c	/^void swap(int* xp, int* yp)$/;"	f	language:C++
+swap	/root/tbc/11/selection_sort_answer.c	/^void swap(int* xp, int* yp);$/;"	p	language:C++	file:
 swap	/root/tbc/9/9.18.c	/^void swap(int *a, int *b)$/;"	f	language:C++
 swap	/root/tbc/9/9.18.c	/^void swap(int *a, int *b);$/;"	p	language:C++	file:
 test_function	/root/tbc/11/11.2.c	/^void test_function()$/;"	f	language:C++
