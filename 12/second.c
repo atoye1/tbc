@@ -1,17 +1,18 @@
-
-/* C template made by Seol*/
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-extern int el;
-extern int il;
-//static int il;
+extern int g_int;
 
-void testLinkage()
+void temp()
 {
-	printf("DoSomething called\n");
-	printf("%d\n", el);
+	g_int += 100;
+}
 
-	el++;
+void fun_sec()
+{
+	temp();
+
+	g_int += 7;
+	printf("g_int in fun_sec() %d %p\n", g_int &g_int);
 }
 

@@ -60,12 +60,20 @@ _CRT_SECURE_NO_WARNINGS	/root/tbc/11/commandline_arguments.c	3;"	d	language:C++	
 _CRT_SECURE_NO_WARNINGS	/root/tbc/11/selection_sort.c	2;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/11/selection_sort_answer.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/11/string_to_numeric.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/12/AllocatedMemory.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/12/AutomaticVariables.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/12/DynmicallyAllocatedArray.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/12/ObjectsAndIdentifiers.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/12/PseudoRandom.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/12/PseudoRandomProb.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/12/StaticVariableWithBlockScope.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/12/block_scope.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/12/func_pointer.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/12/global_vars.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/12/linkage.c	2;"	d	language:C++	file:
-_CRT_SECURE_NO_WARNINGS	/root/tbc/12/second.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/12/main.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/12/random.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/12/second.c	1;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/12/seconde.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/12/when_huge_memory_needed.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/6/scanf_test.c	3;"	d	language:C++	file:
@@ -99,10 +107,13 @@ _CRT_SECURE_NO_WARNINGS	/root/tbc/9/9.9.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/break_in_multi_loop.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/getchar_break.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/placeholder.c	3;"	d	language:C++	file:
+acnt	/root/tbc/12/multi_threading.c	/^_Atomic int acnt = 0; \/\/ atomic type qualifier$/;"	v	language:C++
 add_value	/root/tbc/10/10.11.c	/^void add_value(int arr[], int n, int val)$/;"	f	language:C++
 average	/root/tbc/10/10.7.c	/^double average(double *arr1, int n) \/\/함수에서 배열을 받을때는 포인터로!!$/;"	f	language:C++
 average	/root/tbc/10/10.8.c	/^double average(double* start, double* end)$/;"	f	language:C++
 average	/root/tbc/10/10.8.c	/^double average(double*, double*);$/;"	p	language:C++	file:
+count	/root/tbc/12/StaticVariableWithBlockScope.c	/^int* count()$/;"	f	language:C++
+count_caller	/root/tbc/12/StaticVariableWithBlockScope.c	/^void count_caller()$/;"	f	language:C++
 custom_string_input	/root/tbc/11/11.4.c	/^char* custom_string_input(char* st, int n)$/;"	f	language:C++
 custom_string_input	/root/tbc/11/11.4.c	/^char* custom_string_input(char* st, int n);$/;"	p	language:C++	file:
 display	/root/tbc/8/8.5.c	/^void display(char cr, int lines, int width)$/;"	f	language:C++
@@ -114,15 +125,21 @@ fibonacci	/root/tbc/9/9.10.c	/^int fibonacci(int number)$/;"	f	language:C++
 fibonacci	/root/tbc/9/9.10.c	/^int fibonacci(int number);$/;"	p	language:C++	file:
 fit_str	/root/tbc/11/11.6.c	/^void fit_str(char* str, unsigned int size)$/;"	f	language:C++
 fit_str	/root/tbc/11/11.6.c	/^void fit_str(char*, unsigned int);$/;"	p	language:C++	file:
+fun	/root/tbc/12/main.c	/^void fun()$/;"	f	language:C++
+fun_sec	/root/tbc/12/main.c	/^void fun_sec();$/;"	p	language:C++	file:
+fun_sec	/root/tbc/12/second.c	/^void fun_sec()$/;"	f	language:C++
+func	/root/tbc/12/AutomaticVariables.c	/^void func(int k);$/;"	p	language:C++	file:
 func	/root/tbc/12/func_pointer.c	/^void func()$/;"	f	language:C++
 func1	/root/tbc/12/ObjectsAndIdentifiers.c	/^void func1()$/;"	f	language:C++
 func1	/root/tbc/12/global_vars.c	/^void func1()$/;"	f	language:C++
 func2	/root/tbc/12/ObjectsAndIdentifiers.c	/^void func2()$/;"	f	language:C++
 func2	/root/tbc/12/global_vars.c	/^void func2()$/;"	f	language:C++
 func_block	/root/tbc/12/block_scope.c	/^double func_block(double d)$/;"	f	language:C++
+g_arr	/root/tbc/12/main.c	/^double g_arr[1000] = { 0, };\/\/ or double g_arr[1000] is OK$/;"	v	language:C++
 g_arr	/root/tbc/12/when_huge_memory_needed.c	/^int g_arr[MAX];$/;"	v	language:C++
 g_i	/root/tbc/12/ObjectsAndIdentifiers.c	/^int g_i = 123; \/\/ global_variables -> filescope$/;"	v	language:C++
 g_i	/root/tbc/12/global_vars.c	/^int g_i = 123;$/;"	v	language:C++
+g_int	/root/tbc/12/main.c	/^int g_int = 0; \/\/ -> STATIC VARIABLE$/;"	v	language:C++
 g_j	/root/tbc/12/ObjectsAndIdentifiers.c	/^int g_j; \/\/ global_variables -> filescope$/;"	v	language:C++
 g_j	/root/tbc/12/global_vars.c	/^int g_j;$/;"	v	language:C++
 get_long	/root/tbc/8/8.6.c	/^long get_long(void)$/;"	f	language:C++
@@ -164,11 +181,20 @@ main	/root/tbc/11/commandline_arguments.c	/^int main(int argc, char * argv[])$/;
 main	/root/tbc/11/selection_sort.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/11/selection_sort_answer.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/11/string_to_numeric.c	/^int main(int argc, char * argv[])$/;"	f	language:C++
+main	/root/tbc/12/AllocatedMemory.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/12/AutomaticVariables.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/12/DynmicallyAllocatedArray.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/12/ObjectsAndIdentifiers.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/12/PseudoRandom.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/12/PseudoRandomProb.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/12/StaticVariableWithBlockScope.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/12/block_scope.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/12/func_pointer.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/12/global_vars.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/12/linkage.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/12/main.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/12/multi_threading.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/12/random.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/12/seconde.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/12/when_huge_memory_needed.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/3/3.4.c	/^int main()$/;"	f	language:C++
@@ -206,6 +232,7 @@ main	/root/tbc/break_in_multi_loop.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/getchar_break.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/neted_loop.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/placeholder.c	/^int main()$/;"	f	language:C++
+myThreadFun	/root/tbc/12/multi_threading.c	/^void *myThreadFun(void *vargp)$/;"	f	language:C++
 my_func	/root/tbc/9/9.6.c	/^void my_func(int n)$/;"	f	language:C++
 my_func	/root/tbc/9/9.6.c	/^void my_func(int);$/;"	p	language:C++	file:
 my_func	/root/tbc/9/9.7.c	/^void my_func(int n)$/;"	f	language:C++
@@ -240,6 +267,8 @@ selectionSort	/root/tbc/11/selection_sort_answer.c	/^void selectionSort(int arr[
 selectionSort	/root/tbc/11/selection_sort_answer.c	/^void selectionSort(int arr[], int size);$/;"	p	language:C++	file:
 selection_sort	/root/tbc/11/selection_sort.c	/^void selection_sort(int my_arr[])$/;"	f	language:C++
 selection_sort	/root/tbc/11/selection_sort.c	/^void selection_sort(int my_arr[]);$/;"	p	language:C++	file:
+static_count	/root/tbc/12/StaticVariableWithBlockScope.c	/^int* static_count()$/;"	f	language:C++
+static_count_caller	/root/tbc/12/StaticVariableWithBlockScope.c	/^void static_count_caller()$/;"	f	language:C++
 status	/root/tbc/6/scanf_test.c	/^int status;$/;"	v	language:C++
 sum	/root/tbc/10/10.11.c	/^int sum(const int arr[], int n)$/;"	f	language:C++
 sum2d_1	/root/tbc/10/10.16.c	/^int sum2d_1(int ar[ROWS][COLS])$/;"	f	language:C++
@@ -261,6 +290,9 @@ swap	/root/tbc/11/selection_sort_answer.c	/^void swap(int* xp, int* yp)$/;"	f	la
 swap	/root/tbc/11/selection_sort_answer.c	/^void swap(int* xp, int* yp);$/;"	p	language:C++	file:
 swap	/root/tbc/9/9.18.c	/^void swap(int *a, int *b)$/;"	f	language:C++
 swap	/root/tbc/9/9.18.c	/^void swap(int *a, int *b);$/;"	p	language:C++	file:
+temp	/root/tbc/12/second.c	/^void temp()$/;"	f	language:C++
 testLinkage	/root/tbc/12/linkage.c	/^void testLinkage();$/;"	p	language:C++	file:
-testLinkage	/root/tbc/12/second.c	/^void testLinkage()$/;"	f	language:C++
 test_function	/root/tbc/11/11.2.c	/^void test_function()$/;"	f	language:C++
+x	/root/tbc/12/main.c	/^int x = 5;$/;"	v	language:C++
+y	/root/tbc/12/main.c	/^int y = 1 + 2;$/;"	v	language:C++
+z	/root/tbc/12/main.c	/^size_t z = sizeof(int);$/;"	v	language:C++
