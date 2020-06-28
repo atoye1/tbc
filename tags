@@ -13,6 +13,7 @@ DoubleIt	/root/tbc/10/prac/pointer_func.c	/^void DoubleIt(int *Ptr)$/;"	f	langua
 FIRST_CHAR	/root/tbc/neted_loop.c	4;"	d	language:C++	file:
 LAST_CHAR	/root/tbc/neted_loop.c	5;"	d	language:C++	file:
 MAX	/root/tbc/12/when_huge_memory_needed.c	6;"	d	language:C++	file:
+MAX	/root/tbc/13_파일입출력/00C_fprintf_fscanf.c	8;"	d	language:C++	file:
 MAXLENGTH	/root/tbc/11/11.1.c	7;"	d	language:C++	file:
 MESSAGE	/root/tbc/11/11.1.c	6;"	d	language:C++	file:
 MONTHS	/root/tbc/10/10.6.c	8;"	d	language:C++	file:
@@ -76,6 +77,13 @@ _CRT_SECURE_NO_WARNINGS	/root/tbc/12/random.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/12/second.c	1;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/12/seconde.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/12/when_huge_memory_needed.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/13_파일입출력/00C_fprintf_fscanf.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/13_파일입출력/01A_TextFileReadWrite.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/13_파일입출력/06_RandomAccess.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/13_파일입출력/BinaryFiles.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/13_파일입출력/OtherFunctions.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/13_파일입출력/RandomBinary.c	3;"	d	language:C++	file:
+_CRT_SECURE_NO_WARNINGS	/root/tbc/13_파일입출력/ReadingTextAsBinary.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/6/scanf_test.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/7/7.11.c	3;"	d	language:C++	file:
 _CRT_SECURE_NO_WARNINGS	/root/tbc/7/7.12.c	3;"	d	language:C++	file:
@@ -197,6 +205,13 @@ main	/root/tbc/12/multi_threading.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/12/random.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/12/seconde.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/12/when_huge_memory_needed.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/13_파일입출력/00C_fprintf_fscanf.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/13_파일입출력/01A_TextFileReadWrite.c	/^int main(int argc, char* argv[])$/;"	f	language:C++
+main	/root/tbc/13_파일입출력/06_RandomAccess.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/13_파일입출력/BinaryFiles.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/13_파일입출력/OtherFunctions.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/13_파일입출력/RandomBinary.c	/^int main()$/;"	f	language:C++
+main	/root/tbc/13_파일입출력/ReadingTextAsBinary.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/3/3.4.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/6/6.1.c	/^int main()$/;"	f	language:C++
 main	/root/tbc/6/scanf_test.c	/^int main()$/;"	f	language:C++
